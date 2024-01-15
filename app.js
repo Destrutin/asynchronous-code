@@ -118,3 +118,8 @@ async function newDeck(){
     }
 }
 newDeck();
+
+
+//improvements
+//1. When making HTTP requests, choose either $.getJSON or $.get 
+//2. Wrap jQuery Ajax calls in promises for better handling of asynchronous operations.
